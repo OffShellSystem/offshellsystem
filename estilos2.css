@@ -57,6 +57,14 @@ header{
     margin-bottom: 0px;
 }
 
+header .logo {
+    background: black;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0px;
+    float: left;
+}
+
 header nav{
     background: black;
     height: 20px;
