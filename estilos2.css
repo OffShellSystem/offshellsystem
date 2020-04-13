@@ -57,6 +57,18 @@ header{
     margin-bottom: 0px;
 }
 
+header .cabecera {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    line-height: 1px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+}
+
 header .logo {
     background: black;
     width: 100%;
