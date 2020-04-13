@@ -57,6 +57,14 @@ header{
     margin-bottom: 0px;
 }
 
+header .logo {
+    background: black;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0px;
+    float: left;
+}
+
 header .cabecera {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: red;
@@ -66,14 +74,6 @@ header .cabecera {
     line-height: 1px;
     font-weight: bold;
     text-align: center;
-    float: left;
-}
-
-header .logo {
-    background: black;
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 0px;
     float: left;
 }
 
