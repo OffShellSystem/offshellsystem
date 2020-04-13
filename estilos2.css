@@ -57,6 +57,14 @@ header{
     margin-bottom: 0px;
 }
 
+header .logo2 {
+    background: black;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    float: left;
+}
+
 header .logo {
     background: black;
     width: 100%;
