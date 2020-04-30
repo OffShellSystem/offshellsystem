@@ -141,6 +141,113 @@ header nav a:hover {
   }
 }
 
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+html{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body{
+  height: 0px;
+  padding: 0em;
+  color: rgb(236, 31, 31);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: black;
+}
+
+.line-1{
+    position: relative;
+    top: 12em;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid darkred;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.anim-typewriter{
+  animation: typewriter 3s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+.anim-typewriter2{
+    animation: typewriter2 3s steps(44) 4s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+.anim-typewriter3{
+    animation: typewriter3 3s steps(44) 7s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 15em;}
+}
+
+@keyframes typewriter2{
+    from{width: 0;}
+    to{width: 11em;}
+}
+
+@keyframes typewriter3{
+    from{width: 0;}
+    to{width: 6em;}
+}
+
+@keyframes blinkTextCursor{
+  from{border-right-color: red;}
+  to{border-right-color: transparent;}
+}
+
+
+.botones {
+width: 100%;
+text-align: center;
+}
+
+#separar {
+padding: 2%;
+display: inline-block;
+}
+
+.boton {
+color: green !important;
+font-size: 20px;
+font-weight: 500;
+padding: 0.5em 1.2em;
+background: black;
+border: 2px solid;
+border-radius: 25px;
+border-color: red;
+position: relative;
+}
+
+.boton:before {
+content: "";
+position: absolute;
+top: 0px;
+left: 0px;
+width: 0px;
+height: 100%;
+border-radius: 25px;
+background: darkred;
+transition: all 1s ease;
+}
+
+.boton:hover:before {
+width: 100%;
+content: "✪";
+font-size: 30px;
+color: black;
+}
+
+
 .enlace {
     display: inline-block;
     color: red;
@@ -169,3 +276,29 @@ footer{
     position: fixed;
     bottom: 0;
 }
+
+@media only screen and (max-width: 767px) {
+
+.line-1{
+    position: relative;
+    top: 8em;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid darkred;
+    font-size: 20px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 14.5em;}
+  }
+
+@keyframes typewriter3{
+    from{width: 0;}
+    to{width: 9em;}
+}
+
