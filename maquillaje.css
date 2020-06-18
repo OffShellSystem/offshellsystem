@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor_carga{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+
+#carga{
+    border: 15px solid red;
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+     -o-animation: girar 1.5s linear infinite;
+     animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: black;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 25px;
+    border-style: double;
+    border-color: red;
+    width: 100%;
+    line-height: 0.5em;
+}
+
+h2 {
+    text-align: left;
+    font-size: 16px;
+    width: 100%;
+    line-height: 1em;
+}
+
+.span {
+    color: red;
+}
+
+.portada {
+    background-image: url(https://media2.giphy.com/media/1n912mTRT08Zn0yGqD/giphy.gif);
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    color: black;
+    font-size: 50px;
+    line-height: 1em;
+    text-align: center;
+    line-height: 0.9em;
+}
+
+.contmedio {
+    
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    color: black;
+    font-size: 15px;
+}
+
+.banner1 {
+    background-image: url(https://media2.giphy.com/media/1n912mTRT08Zn0yGqD/giphy.gif);
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    color: white;
+    font-size: 50px;
+    line-height: 1em;
+    text-align: center;
+    display: inline-flex;
+}
+
+.descrip {
+    text-align: justify;
+    color: white;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.tit-producto {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.a {
+    cursor: zoom-in;
+    font-size: 25px;
+    border-radius: 20px;
+    color: red;
+    text-decoration:none;
+}
+
+#precio {
+    color: darkred;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+.container {
+    width: auto;
+    margin: 3em;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+#ofertas {
+    width: 300px;
+    text-align: center;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: auto;
+    cursor: zoom-in;
+}
+
+.boton {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30%;
+    margin: auto;
+    color: brown;
+    cursor: pointer;
+}
+
+.header {
+    background: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+}
+
+.header a {
+    color: red;
+    text-decoration: none;
+}
+
+.container-logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-left: 0.5em;
+    letter-spacing: 5px;
+    font-size: 1.3em;
+}
+
+.navi ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navi ul li {
+    display: inline-block;
+}
+
+.navi ul li a {
+    color: red;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s linear;
+    border-radius: 5px;
+}
+
+.navi ul li a:hover {
+    background: darkred;
+    color: white;
+    margin: 0.5em;
+    padding: 0.1em;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    padding-top: 5rem;
+}
+
+.icon {
+    width: 50px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: darkred;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        text-align: left;
+        line-height: 1em;
+    }
+    
+    .main {
+        padding-top: 8rem;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .header {
+        font-size: 10px;
+    }
+
+    .img-logo {
+        width: 30px;
+    }
+
+    .icon {
+        width: 15px;
+    }
+
+    .navi {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .navi ul li {
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    .navi ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.5s linear;
+        border-radius: 5px;
+    }
+    
+    .navi ul li a:hover {
+        background: darkred;
+        color: white;
+    }
+
+    .portada {
+        background-image: url(https://media2.giphy.com/media/1n912mTRT08Zn0yGqD/giphy.gif);
+        background-size: cover;
+        width: auto;
+        margin: auto;
+        height: 100px;
+        color: black;
+        font-size: 30px;
+        line-height: 1em;
+        text-align: center;
+    }
+
+    .contmedio {
+        width: 100%;
+        margin: auto;
+        height: auto;
+        color: black;
+    }
+
+    .descrip {
+        font-size: 7px;
+        line-height: 1.7em;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #ofertas {
+        width: 100%;
+    }
+
+    hr {
+        margin-bottom: 1em;
+    }
+
+    p {
+        display: block;
+        text-align: justify;
+    }
+    .boton {
+        text-align: center;
+    }
+
+    .img {
+        width: 80%;
+        align-items: center;
+    }
+}
