@@ -292,6 +292,10 @@ footer{
     transform: translateY(-50%);    
 }
 
+p {
+    font-size: 30px;
+}
+    
 @keyframes typewriter{
     from{width: 0;}
     to{width: 12em;}
