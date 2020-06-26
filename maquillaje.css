@@ -71,6 +71,7 @@ h2 {
 }
 
 .icon-texto {
+    text-align: left;
     width: 90%;
     text-decoration: none;
     color: white;
