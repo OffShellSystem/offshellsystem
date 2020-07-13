@@ -123,7 +123,7 @@ h2 {
     background-size: cover;
     width: 100%;
     margin: auto;
-    height: 400px;
+    height: 700px;
     color: black;
     font-size: 50px;
     line-height: 1em;
@@ -302,10 +302,9 @@ p {
 }
 
 .main {
-    background-image: url(https://pbs.twimg.com/profile_images/561116211258220544/FlICmGnj.jpeg);
     width: 100%;
     height: 100%;
-    padding-top: 5rem;
+    padding-top: 0rem;
 }
 
 .icon {
