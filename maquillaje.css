@@ -396,7 +396,7 @@ p {
 
     .portada {
         background-image: url(https://media3.giphy.com/media/l3q2LNVExEP0z9CrS/giphy.gif?cid=ecf05e476dda9f8b0aacbf862e0cfa73ffd02fa097e99812&rid=giphy.gif);
-        background-size: cover;
+        background-size: 100%;
         width: auto;
         margin: auto;
         height: 500px;
