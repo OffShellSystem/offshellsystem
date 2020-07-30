@@ -41,7 +41,7 @@
 body {
     background-image: url(https://media3.giphy.com/media/2UELi4a0nIzoN0ledo/giphy.gif?cid=ecf05e473460ea6b68dee202e9ccfd769ae63754612debf7&rid=giphy.gif);
     background-size: 100%;
-    background: ;
+    background-repeat: no-repeat;
 }
 
 #container{
@@ -283,6 +283,7 @@ footer{
     body {
     background-image: url(https://media0.giphy.com/media/W4jKJ9r4CpML5MU5Ti/giphy.gif?cid=ecf05e47lorbfdfhqqsr7ccqvorhlg7ed874lmx13s1cda8u&rid=giphy.gif);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .line-1{
