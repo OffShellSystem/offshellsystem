@@ -281,6 +281,12 @@ footer{
 
 @media only screen and (max-width: 300px) {
 
+body {
+    background-image: url();
+    background-size: 100%;
+    background: black;
+}
+
 .line-1{
     position: relative;
     top: 8em;  
